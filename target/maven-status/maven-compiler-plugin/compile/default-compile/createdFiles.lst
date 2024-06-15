@@ -1,0 +1,13 @@
+cn\frkovo\plugins\silverrush\Death.class
+cn\frkovo\plugins\silverrush\info.class
+cn\frkovo\plugins\silverrush\AntiAbuse.class
+cn\frkovo\plugins\silverrush\Scoreboard.class
+cn\frkovo\plugins\silverrush\GameProcess\StagePlaying.class
+cn\frkovo\plugins\silverrush\SilverFishProMax$1.class
+cn\frkovo\plugins\silverrush\Scoreboard$1.class
+cn\frkovo\plugins\silverrush\GameProcess\Stage.class
+cn\frkovo\plugins\silverrush\GameProcess\StageEnding.class
+cn\frkovo\plugins\silverrush\GameProcess\StageWaiting.class
+cn\frkovo\plugins\silverrush\SilverFishProMax.class
+cn\frkovo\plugins\silverrush\JoinListener.class
+cn\frkovo\plugins\silverrush\SilverRush.class

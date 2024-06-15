@@ -1,0 +1,9 @@
+name: SilverRush
+version: '${project.version}'
+main: cn.frkovo.plugins.silverrush.SilverRush
+api-version: '1.20'
+dependencies:
+  server:
+    PlaceholderAPI:
+      load: BEFORE
+      required: true

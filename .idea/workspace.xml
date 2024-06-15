@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3f0d9ab-f122-4b9d-bf47-0f498114d89c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/AntiAbuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/Death.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/Stage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageEnding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StagePlaying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageWaiting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/JoinListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/Scoreboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverFishProMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverRush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/idea.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/paper-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hiMPoxAj0QSEdvbCHKcV2yY33n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.SilverRush [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SilverRush [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SilverRush [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SilverRush [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Dev/SilverRush&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dev\SilverRush" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SilverRush [package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3f0d9ab-f122-4b9d-bf47-0f498114d89c" name="Changes" comment="" />
+      <created>1718072422576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718072422576</updated>
+    </task>
+    <servers />
+  </component>
+</project>
