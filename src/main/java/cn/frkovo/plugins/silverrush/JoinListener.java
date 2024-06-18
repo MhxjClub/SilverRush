@@ -31,9 +31,12 @@ public class JoinListener implements Listener {
             if(StageWaiting.task == null){
                 StageWaiting.RunWaiting();
             }
+            info.repl.put("players","&f玩家: &b" + Bukkit.getOnlinePlayers().size());
+        }else{
+            info.repl.put("players","&f还需要: &b" + (2-Bukkit.getOnlinePlayers().size())+"&f位玩家");
         }
         player.setGameMode(GameMode.ADVENTURE);
-         info.repl.put("players","&f玩家: &b" + Bukkit.getOnlinePlayers().size());
+
         e.joinMessage(LegacyComponentSerializer.legacyAmpersand().deserialize(PlaceholderAPI.setPlaceholders(player,"&f%luckperms_prefix%%player_name%%luckperms_suffix% &e加入了游戏！")));
     }
     @EventHandler

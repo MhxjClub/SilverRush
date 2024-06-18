@@ -3,6 +3,7 @@ package cn.frkovo.plugins.silverrush;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import org.bukkit.attribute.Attribute;
 import org.bukkit.block.Block;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
@@ -21,9 +22,10 @@ public class SilverFishProMax {
         this.player = player;
         this.silverfish = (Silverfish) player.getWorld().spawnEntity(location, EntityType.SILVERFISH);
         info.silverfishProMax.put(silverfish,this);
-        silverfish.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 9999999, 1));
+        silverfish.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(0.5);
+        silverfish.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED).setBaseValue(0.4);
+        silverfish.getAttribute(Attribute.GENERIC_MAX_HEALTH).setBaseValue(6);
         silverfish.setTarget(player);
-        //修改蠹虫伤害: TODO
         silverfish.setRemoveWhenFarAway(false); // Prevent the Silverfish from despawning
         silverfish.setPersistent(true); // Make the Silverfish persistent
         info.silverfishes.get(player).add(this);
@@ -50,8 +52,8 @@ public class SilverFishProMax {
             Block targetBlock = eyeLocation.add(dir).getBlock();
             // Check if the target block is solid and break it if necessary
             if (targetBlock.getType().isSolid()) {
-                if (targetBlock.getType().getHardness() > 0) {
-                        targetBlock.breakNaturally();
+                if (targetBlock.getType().getHardness() > 0){
+                    targetBlock.breakNaturally();
                 } else {
                     silverfish.setVelocity(new Vector(0, 0.5, 0));
                 }
@@ -61,7 +63,7 @@ public class SilverFishProMax {
             }
             Location playerLocation = player.getLocation();
             Location silverfishLocation = silverfish.getLocation();
-            if(playerLocation.distance(silverfishLocation) > 150){
+            if(playerLocation.distance(silverfishLocation) > 80){
                 silverfish.teleport(playerLocation);
             }
 
@@ -79,14 +81,13 @@ public class SilverFishProMax {
     }
     public void death(){
         info.silverfishProMax.remove(silverfish);
-        if(info.silverfishes.containsKey(player) && info.silverfishes.get(player).contains(this)){
+        if(info.silverfishes.containsKey(player) && info.silverfishes.get(player).contains(this)) {
             info.silverfishes.get(player).remove(this);
-            new SilverFishProMax(player,silverfish.getLocation());
-            if(info.silverfishes.get(player).size() < 256){
-                new SilverFishProMax(player,silverfish.getLocation());
+            new SilverFishProMax(player, silverfish.getLocation());
+            if (info.silverfishes.get(player).size() < 128) {
+                new SilverFishProMax(player, silverfish.getLocation());
             }
-        }else{
-            silverfish.remove();
         }
+        silverfish.remove();
     }
 }

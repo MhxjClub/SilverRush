@@ -1,5 +1,6 @@
 package cn.frkovo.plugins.silverrush;
 
+import me.clip.placeholderapi.PlaceholderAPI;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -21,6 +22,7 @@ public final class SilverRush extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new AntiAbuse(),this);
         getServer().getPluginManager().registerEvents(new JoinListener(),this);
         getServer().getPluginManager().registerEvents(new Death(),this);
+        new Papi().register();
     }
     @Override
     public void onDisable() {

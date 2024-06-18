@@ -5,22 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3f0d9ab-f122-4b9d-bf47-0f498114d89c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/AntiAbuse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/Death.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/Stage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageEnding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StagePlaying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageWaiting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/JoinListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/Scoreboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverFishProMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverRush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/idea.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/paper-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/Papi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/Death.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/Death.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageEnding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageEnding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StagePlaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StagePlaying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageWaiting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageWaiting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/JoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/JoinListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverFishProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverFishProMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverRush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverRush.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />

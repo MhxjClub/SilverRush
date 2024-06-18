@@ -35,7 +35,7 @@ public class StagePlaying {
         }
     }
     public static BukkitTask task;
-    public static int timer = 20;
+    public static int timer = 180;
     public static int boost = 0;
     public static int players;
     public static boolean start = false;
@@ -45,15 +45,21 @@ public class StagePlaying {
             info.repl.put("double",StageWaiting.color(timer)+timer+" &f秒后蠹虫数量翻倍");
         }else {
             info.repl.put("double","&f准备环节: "+StageWaiting.color(timer)+timer+"&f秒");
+            if(timer == 7){
+                Title title = Title.title(Component.text("§c§l准备.."),Component.text("§a蠹虫要来咯"));
+                for(Player p : info.silverfishes.keySet()){
+                    p.showTitle(title);
+                }
+            }
             if(timer <= 5){
-                Title title = Title.title(Component.text("§c§l"+timer),Component.text("§a倒计时"));
+                Title title = Title.title(Component.text("§c§l"+timer),Component.text("§a蠹虫释放倒计时"));
                 for(Player p : info.silverfishes.keySet()){
                     p.showTitle(title);
                 }
             }
         }
         if(timer <= 0){
-            timer = 60;
+            timer = 120;
             if(start){
                 timer -= boost*5;
                 boost ++;
@@ -93,19 +99,22 @@ public class StagePlaying {
         HashSet<SilverFishProMax> a = new HashSet<>(info.silverfishes.get(p));
         info.silverfishes.remove(p);
         a.forEach(SilverFishProMax::death);
+        info.rank.add(p);
+        info.finalBugs.put(p,a.size());
         Bukkit.broadcast(Component.text("§e剩余玩家数量: §a"+info.silverfishes.size()));
         if(info.silverfishes.size() == 1){
             task.cancel();
             task = null;
-             info.rank.add(info.silverfishes.keySet().iterator().next());
-             info.finalBugs.put(info.silverfishes.keySet().iterator().next(),info.silverfishes.get(info.silverfishes.keySet().iterator().next()).size());
-            StageEnding.RunEnding();
+            Player winner = info.silverfishes.keySet().iterator().next();
+            info.rank.add(winner);
+            info.finalBugs.put(winner,info.silverfishes.get(winner).size());
+            Bukkit.getScheduler().runTaskLater(SilverRush.silverRush, StageEnding::RunEnding,5L);
         }
-        if(!p.isOnline())return;
+        if(!p.isOnline()){
+            return;
+        }
         p.setGameMode(GameMode.SPECTATOR);
-        info.rank.add(p);
-        info.finalBugs.put(p,a.size());
-        Title title = Title.title(Component.text("§c§l你好像丝了"),Component.text("§e被淘汰力。 位列第§6"+ (players-info.rank.size()) + "§e名"));
+        Title title = Title.title(Component.text("§c§l你好像丝了"),Component.text("§e被淘汰力。 位列第§6"+ (info.rank.indexOf(p)+1) + "§e名"));
         p.showTitle(title);
     }
 }

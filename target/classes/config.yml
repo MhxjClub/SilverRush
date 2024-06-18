@@ -50,3 +50,5 @@ end-notice:
     - "&e#&63 &f{name3} &7- &e{qty3}"
     - ""
     - "===================================="
+rw-cmd:
+  - "clv addExp %math_0:0_{rank}*25% %player_name%"
