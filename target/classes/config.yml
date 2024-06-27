@@ -52,3 +52,4 @@ end-notice:
     - "===================================="
 rw-cmd:
   - "clv addExp %math_0:0_{rank}*25% %player_name%"
+msg-format: "&8[&6%"

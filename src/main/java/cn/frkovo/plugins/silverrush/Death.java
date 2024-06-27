@@ -22,9 +22,6 @@ import java.util.Random;
 public class Death implements Listener {
     @EventHandler
     public void onDeath(EntityDamageEvent e){
-        if(e.getDamageSource() instanceof Player && e.getEntity() instanceof Player){
-            e.setCancelled(true);
-        }
         if(info.stage == Stage.PLAYING){
             if(e.getEntity() instanceof Player p) {
                 if (p.getHealth() - e.getFinalDamage() <= 0) {

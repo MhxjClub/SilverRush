@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3f0d9ab-f122-4b9d-bf47-0f498114d89c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/Papi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/chat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/Death.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/Death.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageEnding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageEnding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StagePlaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StagePlaying.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageWaiting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/GameProcess/StageWaiting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/JoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/JoinListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverFishProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverFishProMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverRush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/frkovo/plugins/silverrush/SilverRush.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.SilverRush [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SilverRush [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SilverRush [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SilverRush [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Dev/SilverRush&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.SilverRush [clean].executor": "Run",
+    "Maven.SilverRush [compile].executor": "Run",
+    "Maven.SilverRush [install].executor": "Run",
+    "Maven.SilverRush [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Dev/ViolationHolder",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Dev\SilverRush" />

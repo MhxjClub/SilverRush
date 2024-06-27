@@ -28,9 +28,13 @@ public class StagePlaying {
         for(Component a : e){
             Bukkit.broadcast(a);
         }
+        ItemStack stack = new ItemStack(Material.COOKED_BEEF);
+        stack.setAmount(64);
+
         for(Player p : Bukkit.getOnlinePlayers()){
             p.setGameMode(GameMode.SURVIVAL);
             p.showTitle(title);
+            p.getInventory().addItem(stack);
             info.silverfishes.put(p,new HashSet<>());
         }
     }
@@ -73,12 +77,9 @@ public class StagePlaying {
                 }
             }else{
                 Title title = Title.title(Component.text("§e§l逃！"),Component.text("§a蠹虫已释放！"));
-                ItemStack stack = new ItemStack(Material.COOKED_BEEF);
-                stack.setAmount(64);
                 for(Player p : info.silverfishes.keySet()){
                     new SilverFishProMax(p,p.getLocation());
                     p.showTitle(title);
-                    p.getInventory().addItem(stack);
                 }
                 Bukkit.broadcast(Component.text("§eRELEASE THE BABY！！！！"));
 
