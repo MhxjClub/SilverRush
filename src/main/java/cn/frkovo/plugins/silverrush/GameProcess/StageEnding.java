@@ -14,7 +14,7 @@ public class StageEnding {
     public static int cnt = 10;
     public static void RunEnding(){
         info.stage = Stage.ENDING;
-        Title title = Title.title(Component.text("§c§l游戏结束"), Component.text("§e"+info.rank.getLast().getName()+"§a获胜!"));
+        Title title = Title.title(Component.text("§c§l游戏结束"), Component.text("§e"+info.rank.get(info.rank.size()-1).getName()+"§a获胜!"));
         Title win = Title.title(Component.text("§6§l胜利"), Component.text("§eVICTORY"));
         for(int i = 0; i < info.rank.size(); i++){
             info.rank.get(i).showTitle(title);
